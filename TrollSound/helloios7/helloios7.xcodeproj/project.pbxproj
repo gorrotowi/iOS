@@ -67,6 +67,11 @@
 		EBEDAD8D1870BAD000441742 /* BaDumTss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BaDumTss.mp3; sourceTree = "<group>"; };
 		EBEDAD8E1870BAD000441742 /* doink_doink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doink_doink.mp3; sourceTree = "<group>"; };
 		EBEDAD8F1870BAD000441742 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrong.wav; sourceTree = "<group>"; };
+		EBFA9CBC188455A600365D60 /* icono120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono120.png; sourceTree = "<group>"; };
+		EBFA9CBD188455BD00365D60 /* icono80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono80.png; sourceTree = "<group>"; };
+		EBFA9CBF188455EA00365D60 /* icono58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono58.png; sourceTree = "<group>"; };
+		EBFA9CC01884563F00365D60 /* splash960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash960.png; sourceTree = "<group>"; };
+		EBFA9CC11884564C00365D60 /* splash1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash1136.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,11 @@
 		EBEDACF1186FD9F200441742 = {
 			isa = PBXGroup;
 			children = (
+				EBFA9CC11884564C00365D60 /* splash1136.png */,
+				EBFA9CC01884563F00365D60 /* splash960.png */,
+				EBFA9CBF188455EA00365D60 /* icono58.png */,
+				EBFA9CBD188455BD00365D60 /* icono80.png */,
+				EBFA9CBC188455A600365D60 /* icono120.png */,
 				EBEDAD8C1870BAD000441742 /* aplausos.wav */,
 				EBEDAD8D1870BAD000441742 /* BaDumTss.mp3 */,
 				EBEDAD8E1870BAD000441742 /* doink_doink.mp3 */,
@@ -404,8 +414,6 @@
 		EBEDAD2D186FD9F200441742 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helloios7/helloios7-Prefix.pch";
 				INFOPLIST_FILE = "helloios7/helloios7-Info.plist";
@@ -418,8 +426,6 @@
 		EBEDAD2E186FD9F200441742 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "helloios7/helloios7-Prefix.pch";
 				INFOPLIST_FILE = "helloios7/helloios7-Info.plist";
